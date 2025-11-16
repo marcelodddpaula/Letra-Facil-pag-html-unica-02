@@ -8,11 +8,10 @@ const HeroSection: React.FC = () => {
         <div className="grid md:grid-cols-5 gap-12 items-center">
           <div className="md:col-span-3 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-light dark:text-text-dark leading-tight"
-              dangerouslySetInnerHTML={{ __html: 'Letra Fácil<br>• Site em Reformulação •' }}>
+              dangerouslySetInnerHTML={{ __html: 'Estamos <span class="text-primary">Ampliando</span> e <br/><span class="text-primary">Modernizando</span> nosso site.' }}>
             </h1>
-            <p className="mt-6 text-xl text-subtle-light dark:text-subtle-dark">
-              Estamos ampliando e modernizando o site Letra Fácil para trazer
-              mais opções em Placas e Letreiros.
+            <p className="mt-6 text-3xl text-subtle-light dark:text-subtle-dark">
+              Ah, e tem novidade chegando: NOVOS PRODUTOS estão sendo adicionados.
             </p>
 
             <div className="mt-12 bg-gray-100 dark:bg-gray-800/50 p-6 md:p-8 rounded-xl border border-gray-200 dark:border-gray-700">
